@@ -7,15 +7,9 @@ body {
   min-width: 320px; 
   min-height: 100vh; 
   font-family: Arial, sans-serif; 
-  /*background: #f4f6f8; */
-  background: #0b486b;
-  background: linear-gradient(220deg, #0b486b 0%, #3b8277 50%, #f4d03f 100%);
+  background: #f4f6f8; 
   color: #1f2937; 
-  
 } 
-header p {
-  color: #fbfbfb;
-}
  
 .app { 
   width: min(900px, 92%); 
@@ -28,7 +22,6 @@ header p {
 } 
  
 .eyebrow { 
-  color: #fbfbfb;
   font-weight: 700; 
   letter-spacing: 0.12em; 
 } 
@@ -39,12 +32,8 @@ header p {
 } 
  
 .habit-card { 
-  color: #0e99e9;
   padding: 20px; 
   border: 1px solid #d7dde5; 
-  border-radius: 20px; 
+  border-radius: 12px; 
   background: #ffffff; 
 } 
-.habit-card h2 {
-  color: #1f2937;
-}
