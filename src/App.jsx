@@ -10,7 +10,7 @@ export default function App() {
   const completedCount = habits.filter(
     (habit) => habit.completed,
   ).length;
-
+ 
   function handleToggleHabit(habitId) {
     setHabits((currentHabits) =>
       currentHabits.map((habit) =>

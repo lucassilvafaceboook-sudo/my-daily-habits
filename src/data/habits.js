@@ -5,7 +5,7 @@ export const initialHabits = [
     goal: "8 copos",
     completed: true,
   },
-  {
+  { 
     id: "react-study",
     title: "Estudar React",
     goal: "30 minutos",

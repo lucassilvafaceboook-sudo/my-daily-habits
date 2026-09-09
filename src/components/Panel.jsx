@@ -1,5 +1,5 @@
 export default function Panel({ title, children }) {
-  return (
+  return ( 
     <section className="panel">
       <header className="panel-header">
         <h2>{title}</h2>
