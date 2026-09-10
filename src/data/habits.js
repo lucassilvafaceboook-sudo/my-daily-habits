@@ -17,11 +17,4 @@ export const initialHabits = [
     goal: "20 minutos",
     completed: true,
   },
-  {
-    id: "Estudar",
-    title: "estudar",
-    goal: "30 minutos",
-    completed: true,
-  },
-
-];
+ ];
