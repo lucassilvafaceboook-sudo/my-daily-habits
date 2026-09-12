@@ -73,3 +73,31 @@ body {
   color: #b42318;
   font-weight: 700;
 }
+.habit-filter {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.habit-filter button {
+  padding: 6px 14px;
+  border: 1px solid #d7dde5;
+  border-radius: 20px;
+  background: #ffffff;
+  color: #1f2937;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.habit-filter button:hover {
+  background: #f4f6f8;
+}
+
+.habit-filter button.active {
+  background: #1f2937;
+  color: #ffffff;
+  border-color: #1f2937;
+}
